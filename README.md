@@ -17,6 +17,11 @@ Key steps in EDA include:
 2. **Feature Engineering:** Some categorical variables were converted into numerical values.
 3. **Feature Importance Analysis:** Identified the most influential features using Random Forest.
 4. **Visualization:** Created bar charts and distribution plots to understand data trends.
+![Fig-6](Fig-6.png))
+![Fig-1](Fig-1.png))
+![Fig-2](Fig-2.png))
+![Fig-3](Fig-3.png))
+![Fig-4](Fig-4.png))
 
 ## Regression Models Used
 We experimented with multiple regression techniques:
@@ -24,6 +29,7 @@ We experimented with multiple regression techniques:
 ### 1. **Random Forest Regressor**
 - Used 500 estimators, `max_depth=10`, `max_features='log2'`, `min_samples_leaf=4`, and `min_samples_split=2`.
 - Feature importance analysis indicated that `Item_MRP`, `Outlet_Type`, and `Item_Weight` were the most influential variables.
+![Fig-5](Fig-5.png))
 - Achieved an **R² score of 0.6138** on the test set after hyperparameter tuning.
 
 ### 2. **Gradient Boosting Regressor**
