@@ -16,12 +16,22 @@ Key steps in EDA include:
 1. **Handling Missing Values:** Missing values in `Outlet_Size` and `Item_Weight` were addressed.
 2. **Feature Engineering:** Some categorical variables were converted into numerical values.
 3. **Feature Importance Analysis:** Identified the most influential features using Random Forest.
-4. **Visualization:** Created bar charts and distribution plots to understand data trends.
+4. **Visualization and Analysis:** Created bar charts and distribution plots to understand data trends.
+   
 ![Fig-6](Fig-6.png))
+Sales Distribution: Sales are right-skewed, with most items having low sales and a few high-value outliers.
+
 ![Fig-1](Fig-1.png))
+Correlation Analysis: Item_MRP strongly correlates with sales, while item visibility and outlet establishment year have minimal impact.
+
 ![Fig-2](Fig-2.png))
+Sales Trends (By Outlet Type): Supermarket Type 3 has the highest sales, while grocery stores lag behind.
+
 ![Fig-3](Fig-3.png))
+Sales Trends (By Item Visibility): Low-visibility items still sell well, indicating that visibility may not be a strong predictor.
+
 ![Fig-4](Fig-4.png))
+Mid-aged outlets (10-20 years old) perform best, while very old outlets show declining sales.
 
 ## Regression Models Used
 We experimented with multiple regression techniques:
